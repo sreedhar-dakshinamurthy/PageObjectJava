@@ -25,4 +25,9 @@ public class FirstPageActions extends BaseActions{
         firstPage.NavigateToSecondPageImpl();
         return new SecondPageActions();
     }
+
+    public void FirstPageFirstAndSecondVerification() {
+        firstPage.FirstPageFirstVerificationImpl();
+        firstPage.FirstPageSecondVerificationImpl();
+    }
 }

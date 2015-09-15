@@ -17,4 +17,9 @@ public class FirstPageTestClass {
 
         new FirstPageActions().FirstPageSecondVerification();
     }
+
+    @Test
+    public void FirstPageThirdTest(){
+        new FirstPageActions().FirstPageFirstAndSecondVerification();
+    }
 }

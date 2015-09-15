@@ -14,4 +14,9 @@ public class ThirdPageTestClass {
     public void ThirdPageSecondTest(){
         new FirstPageActions().NavigateToSecondPage().NavigateToThirdPage().ThirdPageSecondVerification();
     }
+
+    @Test
+    public void ThirdPageThirdTest(){
+        new FirstPageActions().NavigateToSecondPage().NavigateToThirdPage().ThirdPageFirstAndSecondVerification();
+    }
 }

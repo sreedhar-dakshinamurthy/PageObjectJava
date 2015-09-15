@@ -14,4 +14,11 @@ public class SecondPageTestClass {
     public void SecondPageSecondTest(){
         new FirstPageActions().NavigateToSecondPage().SecondPageSecondVerification();
     }
+
+    @Test
+    public void SecondPageThirdTest(){
+        new FirstPageActions().NavigateToSecondPage().SecondPageFirstAndSecondVerification();
+    }
+
+
 }

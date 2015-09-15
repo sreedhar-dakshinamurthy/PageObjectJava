@@ -19,4 +19,9 @@ public class ThirdPageActions {
     public void ThirdPageSecondVerification(){
         thirdPage.ThirdPageSecondVerificationImpl();
     }
+
+    public void ThirdPageFirstAndSecondVerification() {
+        thirdPage.ThirdPageFirstVerificationImpl();
+        thirdPage.ThirdPageSecondVerificationImpl();
+    }
 }
